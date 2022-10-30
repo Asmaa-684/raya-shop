@@ -1,0 +1,51 @@
+.arrow{
+    color:#045f9b;
+  }
+  .edit_text{
+    padding-top: 50px;
+    align-items: center;
+  }
+  .account_arrow{
+    padding-left: 15px;
+  }
+  
+  .text-browse{
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .account_details{ 
+    margin: 20px;
+  }
+  .account_parag{
+    font-size: 15px;
+    font-weight:500;
+    color: rgb(171, 168, 168);
+    overflow-wrap: break-word;;
+    padding-left: 10px;
+    display: block;
+  }
+  .account_h1{
+    text-align: start;
+    font-size: 240%;
+   padding-bottom: 30px;
+  }
+  .filledit{
+    color: #2583c2;    
+  }
+  
+  .text_h4{    
+      color: #062555;
+      font-weight: bold;    
+  }
+  .account_h1{
+    text-align: start;
+    font-size: 240%;
+   padding-bottom: 30px;
+   color: #062555;
+  }
+  .text_hh5 {
+    font-weight: bold;
+    color: #062555;
+  }

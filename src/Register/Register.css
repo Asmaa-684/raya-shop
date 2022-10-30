@@ -1,0 +1,242 @@
+.link3{
+    margin-top: 30px;
+}
+.link3 span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006CB7;
+    padding-top: 2px;
+}
+.link3 a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #006CB7;
+}
+.content{
+    padding-top: 0px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+.left , .right{
+    padding-top: 100px;
+    height: 600px;
+
+}
+.left{
+    background: #ffffff;
+    margin-right: -100px;
+    margin-left: 30px;
+
+}
+.imgbg{
+    background: url(../assets/login-illustration.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 555px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.imgbg ul{
+    list-style: none;
+}
+.button1{
+    margin-top: 20px;
+    width: 211px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #006CB7;
+    font-weight: 600;
+    padding: 10px 0;
+    
+}
+.right{
+    border-bottom: 1px solid #001C46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.right h1{
+color: #001C46;
+font-size: 42px;
+}
+.right h2{
+color: #667790;
+font-size: 14px;
+margin-top: 8px;
+}
+.rightRigister input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid rgba(99, 99, 99, 0.426);
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* .rightRigister input[type="text"]{
+
+    width: 190%;
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid rgba(99, 99, 99, 0.426);
+    margin-top: 20px;
+    margin-left: -50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rightRigister input[type="password"]{
+
+    width: 190%;
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid rgba(99, 99, 99, 0.426);
+    margin-top: 20px;
+    margin-left: -50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rightRigister input[type="number"]{
+
+    width: 190%;
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid rgba(99, 99, 99, 0.426);
+    margin-top: 20px;
+    margin-left: -50px;
+    font-size: 14px;
+    font-weight: 500;
+} */
+span.validation{
+color: #f00;
+padding-left: 20px;
+}
+.button2Register{
+    margin-top: 20px !important;;
+    width: 244px !important;;
+    border-radius: 20px !important;;
+    font-size: 18px !important;;
+    color: #fff !important;
+    font-weight: 600 !important;
+    padding: 16px 20px !important;
+    margin-top: 48px !important;
+    background: #006CB7 !important;
+}
+.button1:hover{
+color: #006CB7;
+}
+.button2Register:hover{
+    color: #fff;
+    }
+.right a{
+    color: #006CB7;
+    width: 100%;
+}
+.link{
+    text-align: right;
+}
+.footerRegister{
+    height:50px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.footerRegister p{
+    font-size: 14px;
+    color: #001C46;
+    font-weight: normal;
+
+}
+.footerRegister a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #006CB7;
+}
+
+
+/* responsive  */
+@media (min-width: 1281px) {
+  
+    .register{
+        padding-top: 8vh;
+        /* height: 85vh; */
+    }
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .content{
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    } 
+    .imgbg{
+        height: 340px;
+        
+    }
+     .right{
+        height: 800px;
+        padding-bottom: 100px;
+    }
+ 
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .content{
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    } 
+    .imgbg{
+        height: 340px;
+        
+    }
+     .right{
+        height: 800px;
+        padding-bottom: 100px;
+    }
+    .rightRigister , form{
+        max-width: 380px;
+    }
+
+    .rightRigister input{
+        width: 100%;
+    }
+    .register .left{
+        max-width: 380px;
+    }
+    .register .left .imgbg{
+        max-width: 380px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .content{
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    } 
+    .imgbg{
+        height: 340px;
+        
+    }
+     .right{
+        height: 800px;
+        padding-bottom: 100px;
+    }
+    .rightRigister , form{
+        max-width: 380px;
+    }
+
+    .rightRigister input{
+        width: 100%;
+    }
+    .register .left{
+        max-width: 380px;
+    }
+    .register .left .imgbg{
+        max-width: 380px;
+    }
+}

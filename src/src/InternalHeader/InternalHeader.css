@@ -1,0 +1,44 @@
+
+
+.InternalHeader{
+    background-color: #001c46;
+    height: 75px;
+    border-radius: 0px 0px 20px 20px;
+    color: #fff;
+}
+
+
+
+.InternalHeaderContent{
+    color: #fff;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
+}
+.InternalHeaderContent div:nth-child(2) img{
+    width: 137px;
+    height: 55px;
+}
+.FiPhoneCall , .AiFillLock{
+    font-size: 20px;
+    
+}
+div .LogoIcon{
+    width: 100px;
+    background: url(../assets/Logo.jpg);
+}
+
+@media (min-width: 481px) and (max-width:767px) {
+    .InternalHeaderContent{
+        grid-template-columns: 1fr ;
+        row-gap: 30px;
+    }
+
+    .InternalHeader{
+        
+        height: 200px;
+    }
+}

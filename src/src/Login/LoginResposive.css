@@ -1,0 +1,129 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1406px ) {
+
+  .login{
+    padding-top: 8vh;
+    /* height: 85vh; */
+}
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1406px) {
+    .content{
+      display: grid;
+      grid-template-columns: 1fr;
+      column-gap: 119px;
+  }
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .content{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left , .rightLogin{
+        padding-top: 20px;
+       
+    }
+    .imgbg{
+        width:100%;
+        
+    }
+    .rightRigister , form{
+      max-width: 380px;
+  }
+
+  .rightLogin input{
+      width: 100%;
+  }
+  .login .left{
+      max-width: 380px;
+  }
+  .login .left .imgbg{
+      max-width: 380px;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left {
+      padding-top: 33px;
+      max-height: 427px;
+       
+    }
+     .rightLogin{
+      padding-top: 33px;
+      height: 417px;
+       
+    }
+    .rightLogin , form{
+      max-width: 380px;
+  }
+
+  .rightLogin input{
+      width: 100%;
+  }
+  .login .left{
+      max-width: 380px;
+  }
+  .login .left .imgbg{
+      max-width: 380px;
+  }
+    
+    
+  }

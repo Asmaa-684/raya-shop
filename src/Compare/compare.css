@@ -1,0 +1,84 @@
+.comparelable{
+  background-color:#E5f0f7   !important;
+
+  }
+.icon{
+
+    padding-top: 100%;
+   
+    text-align: center;
+
+}
+.border{
+   
+
+border-style: dashed;
+border-color: rgb(226, 223, 223);
+}
+.offer{
+    background-color: red;
+  border-radius: 10px;
+    border-style:hidden;
+   width:50%;
+   height:50%;
+
+   
+}
+
+/* Productimg{
+  width:10px;
+  height: 10px;
+} */
+.ProductDetails{
+  border-radius: 30px;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction:row;
+  box-shadow: 0 0 40px -12px rgb(0 28 70 / 30%);
+}
+/* @media (min-height: 500px){
+  .form-group{
+background-color: red;
+  } 
+}*/
+.botdiv{
+  margin-left:20%;
+ 
+}
+
+.bot{
+   width: 200px;
+ /* height: 40px;
+  margin-bottom: 40px; */
+  border-radius: 20px;
+  /* background-color: #e5f0f7;*/
+  border: none; 
+  /* color: #045f9b; */
+}
+.sora{
+  padding-top: 15px;
+  padding-left: 15px;
+ border-radius: 20px;
+  height:8rem;
+    width: 6rem;
+  
+}
+.jjf{
+  text-align: center;
+  padding-top: 25%;
+}
+
+.nav{
+  height:40%;
+  width: 100%;
+  position:fixed;
+  top: 0px;;
+  transition-timing-function: ease-in;
+  transition:0.5s
+}
+.cardtxt{
+  margin-top: 10px;
+}
+.nav__blue{
+  background-color:rgb(156, 136, 136);
+}

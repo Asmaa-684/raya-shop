@@ -1,0 +1,63 @@
+.account_h1{
+    text-align: start;
+    font-size: 240%;
+   padding-bottom: 30px;
+  }
+  .icon{
+    position: absolute;
+   margin-top: 12px;
+   padding-left: 5px;
+  }
+  .address_button{
+    width: 40%;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    border:3px solid #2583c2;
+    border-radius: 35px;
+    text-decoration: none;
+    background-color: #2583c2;
+    color: white;
+    padding-left: 110px;
+    padding-top: 15px;
+  }
+  .address_buttonn{
+    border: 3px solid #111;
+    color: #111;
+    width: 40%;
+    height: 70px;
+    font-weight: bold;
+    text-decoration: none;
+   
+    border-radius: 35px;
+    padding-left: 130px;
+    padding-top: 15px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .account_label{
+    position: relative;
+    left: 20px;
+    bottom: 63px;
+    transition: all 0.4s;
+    padding: 0 2px;
+    z-index: 1;
+    color: rgba(15, 32, 59, 0.5);
+    content: "";
+  }
+  .address_p {
+    font-size: 18px;
+    color: #062555;
+    font-weight: bold;
+  }
+  .address_a{
+    font-weight: 500;
+    font-size: 15px;
+    color: #336bbf;
+  }
+  #address_form::placeholder{
+    color:rgba(15, 32, 59, 0.5); 
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }

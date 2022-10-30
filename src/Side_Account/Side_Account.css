@@ -1,0 +1,66 @@
+.info_icon{
+    width: 15px;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;   
+     background-color: #d5e1e8;
+     font-size: 15px;
+   }
+   .account_paragraph{
+    font-size: 15px;
+    font-weight: 500;
+    /* text-align: center; */
+    align-items: center;
+  }
+  .account_paragraph > span{
+    font-weight: bold;
+    padding-left: 4px;
+    
+  }
+  .account_ul{
+   list-style-type: none;
+   padding-left: 7px;
+   
+  }
+  .account_a{
+    text-decoration: none; 
+    font-size: 15px;
+    font-weight: 500;   
+  }
+  .account_a>span{
+    color: #001c46;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .account_list{
+    width: 100%;
+    height: 70%;
+    background-color: #f1f7fb;
+    border-radius: 35px;
+    padding-top: 2px;
+    margin-top: 20px;
+  }
+  .account_number{
+    /* background-image: url("background-layer-2.00a31a3.png");
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 25%;
+    background-color: #f1f7fb;
+    padding-left: 15px;
+    padding-top: 30px;
+    margin-top: 5%;
+    /* border-top-left-radius:  0px  ; */
+    border-radius: 35px;
+  }
+  .logout_icon{
+    padding-right: 10px;
+    color: red;
+  }
+  .account_logout{
+    color: red;    
+    align-items: center;
+  }
+  .info_a{
+    padding-left: 100px;
+  }

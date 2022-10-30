@@ -1,0 +1,413 @@
+.cartComponent{
+    background-image: url("https://www.rayashop.com/_nuxt/img/Rectangle.70e4436.png");
+    padding-top: 50px;
+    
+}
+.cartComponent h2{
+    font-size: 48px;
+    color: #001c46;
+    font-weight: 600;
+
+
+}
+.cartComponent p{
+    font-size: 14px;
+    color: #777;
+}
+.paymentSummary{
+    
+    box-shadow: 0px 0px 11px 0px  rgb(85, 84, 84);
+    width: 390px;
+    border-radius: 20px 20px 20px 20px ;
+    background: #fff;
+    max-height: 701px;
+}
+
+.paymentSummary div h3{
+    font-size: 27px !important;
+    color: #001c46;
+    
+
+}
+.paymentSummary div div div:nth-child(4){
+    background-color: #1f5db970;
+    max-width: 100%;
+    height: 1px;
+}
+.paymentSummary div div div:nth-child(6){
+    background-color: #FFF2D7;
+    padding: 10px;
+    border-radius: 10px 10px;
+
+}
+.paymentSummary div div div:nth-child(6) span{
+    font-weight: bold;
+    font-size: 14px;
+    color: #001c46;
+
+}
+.paymentSummary div div div:nth-child(6) p{
+    color: #001c46;
+    font-size: 14px;
+    font-weight: normal;
+}
+.paymentSummary div div button:nth-of-type(1){
+    background-color: #006CB7;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+
+
+}
+.paymentSummary div div button:nth-of-type(1):hover{
+    background-color: #006CB7;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+.paymentSummary div div div:nth-child(8) {
+    margin-top: 30px;
+
+    background-color: #777;
+    max-width: 100%;
+    height: 1px;
+
+}
+.paymentSummary div div button:nth-of-type(2){
+    margin-top: 20px;
+    height:62px;
+    background-color: #fff;
+    border: 3px solid #007CCC;
+    color: #007CCC;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px 30px;
+    transition: all .4s;
+    
+
+}
+.paymentSummary div div button:nth-of-type(2):hover{
+    color: #fff;
+    background-color: #007CCC;
+}
+.paymentSummary div div div:nth-child(10) img{
+    margin-top: 20px;
+    width: 70px;
+}
+    /* eachProduct */
+    
+.eachProduct{
+    max-height: 200px;
+    min-width: 400px;
+
+}
+.eachProduct img{
+    padding: 10px 10px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.eachProduct a{
+    color: #001c46;
+    text-decoration: none;
+
+}
+.eachProduct input{
+width: 50px !important;
+
+}
+.eachProduct .AiOutlineHeart {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border: none;
+    background-color: #fff;
+    color: #001c46;
+    border-radius: 15px 15px ;
+}
+.eachProduct  .BsTrash {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border: none;
+    background-color: #fff;
+    color: #e93232;
+    border-radius: 15px 15px ;
+}
+.eachProduct .AiOutlineHeart:hover {
+    font-size: 24px;
+    background-color: #fff;
+    color: #001c46;
+    border-radius: 15px 15px ;
+
+}
+.eachProduct  .BsTrash:hover {
+    font-size: 20px;
+    background-color: #fff;
+    color: #f00;
+    border-radius: 15px 15px ;
+}
+.eachProduct  span{
+    font-size: 19px;
+    color: #245bad;
+    font-weight: 600;
+
+
+}
+.installment-plans-section{
+    max-width: 630px;
+    background-color: #E5f0f7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 20px 20px ;
+
+
+
+    
+}
+.installment-plans-section p{
+    color: #001c46;
+    width: 100%;
+
+}
+.installment-plans-section a{
+    color: #006CB7;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+/* end eachProduct */
+
+/* slider  */
+
+/* /////////////////////// */
+/* slider  */
+.ProductCard {
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .ProductCard__Thumb{
+    width: 65%;
+  }
+  .ProductCard__Details {
+    border-radius: 30px;
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 40px -12px rgb(0 28 70 / 30%);
+  }
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  .font-body {
+    font-family: Roboto, Arial, sans-serif;
+  }
+  .product-price{
+    color: rgb(0, 136, 210);
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  .compareButton{
+    border-radius: 20px;
+    background-color: #e5f0f7;
+    border: none;
+    color: #045f9b;
+  }
+  .endLine {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: .01rem solid rgb(155, 155, 155); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+  } 
+  .endLine span { 
+     background:#fafbfb; 
+     padding:0 10px; 
+  }
+  .grow {
+    transition: all .2s ease-in-out;
+  }
+  .grow:hover { 
+    transform: scale(1.05); 
+  }
+  .heart{
+    top:0px;
+    right:20px;
+  }
+  .loveBtn{
+    background-color: #e5f0f7;
+    height: 55px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  
+    .slick-slide{
+      margin: 0 10px;
+    
+    }
+    .slick-list{
+      margin: 0 -10px;
+       
+    }
+    
+  /* end slider  */
+
+
+.SharedSliderComponent{
+    padding-bottom: 40px;
+    background-color: red;
+}
+ .SharedSliderNext {
+    
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    background-color: transparent !important;
+}
+ .SharedSliderNext:before {
+    color: #528de4;
+    font-size: 41px;
+    opacity: .8;
+}
+
+.SharedSliderPrev{
+    left: 33px;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: transparent !important;
+    
+}
+.SharedSliderPrev:before {
+    content: '←';
+    color: #528de4;
+    font-size: 41px;
+    opacity: .8;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        width: 600px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .eachProduct{
+        min-width: 768px
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        min-width: 768px
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .eachProduct{
+        min-width: 481px
+    }
+    .installment-plans-section{
+        max-width:481px;
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        min-width: 481px
+    }
+
+
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .forResponsCart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 320px;
+    }
+    .eachProduct{
+        max-height: 230px;
+        max-width: 320px;
+        margin: 0;
+    }
+    .installment-plans-section{
+        max-width:470px;
+    }
+    .paymentSummary{
+        margin-top: 70px;
+        min-width: 320px
+    }
+
+
+  }

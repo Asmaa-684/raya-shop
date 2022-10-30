@@ -1,0 +1,132 @@
+footer.footer{
+    background-color: #001C46;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footerContent{
+display: flex;
+flex-direction: column;
+
+}
+.footerUpper{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+color: #fff;
+}
+.footerUpper div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footerUpper h4{
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+    
+
+}
+.footerUpper p{
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    transition: all .2s ease-in-out;
+    position: relative;
+
+}
+.footerUpper p:hover::before{
+    content: '';
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: lineAnimation 1s;
+    width: 30%;
+    height: 2px;
+    background-color: #FDBC38;
+    position: absolute;
+    bottom: -5px;
+    left: 0px
+
+}
+/* .footerUpper p:hover::before{
+    @keyframes lineAnimation {
+        0%{
+            width: 0%;
+        }
+       
+        50%{
+            width: 10%;
+        }
+      
+        100%{
+            width: 30%;
+        }
+    }
+} */
+.footerUpper p:hover{
+     font-weight: 700 !important;
+    
+    /* border-bottom: 2px solid #FDBC38 !important;  */
+}
+
+/* .footerUpper :nth-child(1){
+  
+   
+}
+.footerUpper :nth-child(2){
+
+}
+.footerUpper :nth-child(3){
+
+}
+.footerUpper :nth-child(4){
+
+}
+.footerUpper :nth-child(5){
+
+}
+.footerLower{
+
+} */
+.FaApple{
+margin-right: 6px;
+margin-bottom: 6px;
+font-size: 20px;
+}
+.inputFooter{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.645);
+    width: 90%;
+}
+.MdOutlineEmailDiv{
+    display: flex;
+    align-items: center
+}
+.MdOutlineEmail{
+    opacity: .4;
+    font-size: 21px;
+}
+.BsArrowRightSquareFill{
+    font-size: 30px;
+    background: #fff;
+    fill: #006CB7;
+    border: none;
+    border-radius: 10px;
+}
+.footerLower{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 20px;
+}
+.footerLower div{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+footer{
+    border-top: 1px solid #49525f56;
+    width: 100%;
+    padding-left: 40px;
+}
+footer a{
+    color: #006CB7;
+}

@@ -1,0 +1,40 @@
+.pAndIcons {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.pAndIcons p{
+    color: #99A4B5;
+}
+form{
+    width: 100%;
+}
+.inId{
+    width: 90% !important;
+    height: 55px;
+    font-size:20px !important;
+    letter-spacing: 2px;
+    color: #010101 !important;
+    margin-left: 0 !important;
+    
+}
+.button2{
+    margin-top: 20px !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    padding: 16px 20px !important;
+    margin-top: 48px !important;
+    background: #006CB7 !important;
+}
+
+@media (min-width: 1281px) {
+    
+   .button2{
+        width: 240px;
+   }
+    
+}

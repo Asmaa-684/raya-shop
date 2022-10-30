@@ -1,0 +1,126 @@
+.link3{
+    margin-top: 30px;
+}
+.link3 span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006CB7;
+    padding-top: 2px;
+}
+.link3 a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #006CB7;
+}
+.content{
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.left , .rightLogin{
+    padding-top: 0px;
+    height: 85vh;
+
+}
+.left{
+    background: #ffffff;
+    margin-right: 39px;
+    margin-left: -23px;
+}
+.imgbg{
+    background: url(../assets/login-illustration.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 555px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding-left: 50px;
+}
+.imgbg h1{
+    color: #fff;
+    margin: 0; 
+    text-align: start;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+.imgbg p{
+    color: #fff;
+}
+.imgbg ul{
+    list-style: none;
+}
+.button1{
+    margin-top: 20px !important;
+    width: 286px  !important;
+    height: 55px  !important;
+    border-radius: 20px !important;
+    font-size: 18px !important;
+    color: #006CB7 !important;
+    font-weight: 600 !important;
+    padding: 10px 0 !important;
+    
+}
+.rightLogin{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.rightLogin h1{
+color: #001C46;
+font-size: 42px;
+}
+.rightLogin h2{
+color: #667790;
+font-size: 14px;
+margin-top: 8px;
+}
+.rightLogin input{
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border:1px solid rgba(99, 99, 99, 0.426);
+    margin-top: 20px;
+}
+
+.button2{
+    margin-top: 20px;
+    width: 244px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 16px 20px;
+    margin-top: 48px;
+}
+.right a{
+    color: #006CB7;
+    width: 100%;
+}
+.link{
+    text-align: right;
+}
+.footerLogin {
+    height:50px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.footerLogin p{
+    font-size: 14px;
+    color: #001C46;
+    font-weight: normal;
+
+}
+.footerLogin a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #006CB7;
+}
